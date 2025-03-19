@@ -4,13 +4,18 @@
 
 This is the online repository of *"Green-Pressure – A Weighted Queue-Length Approach Towards Sustainable Intersection Management"*. This repository contains a Python-implementation of a traffic microsimulation to demonstrate the potential of **Green-Pressure** controller. The repository is based on [SUMO (provided by DLR)](https://eclipse.dev/sumo/).
 
-
-<img src="code/gif_animation/figures_intA_grp.gif"  width="200"/>
-<img src="code/gif_animation/figures_intB_grp.gif"  width="200"/>
-<img src="code/gif_animation/figures_intC_grp.gif"  width="200"/>
-<img src="code/gif_animation/figures_car_grp.gif"  width="200"/>
-<img src="code/gif_animation/figures_bus_grp.gif"  width="200"/>
-<img src="code/gif_animation/figures_car_max.gif"  width="200"/>
+<table>
+    <tr>
+        <td><img src="code/gif_animation/figures_intA_grp.gif"  width="200"/></td>
+        <td><img src="code/gif_animation/figures_intB_grp.gif"  width="200"/></td>
+        <td><img src="code/gif_animation/figures_intC_grp.gif"  width="200"/></td>
+    </tr>
+    <tr>
+        <td><img src="code/gif_animation/figures_car_grp.gif"  width="200"/></td>
+        <td><img src="code/gif_animation/figures_bus_grp.gif"  width="200"/></td>
+        <td><img src="code/gif_animation/figures_car_max.gif"  width="200"/></td>
+    </tr>
+</table>
 
 ## Abstract
 Urban transportation networks increasingly suffer from congestion. Negative externalities resulting from noise and pollution, affect public health, quality of life, and the economy. The major traffic bottlenecks in cities are conflicts at intersections, leading to this pressing issue. Intelligent transportation systems leverage sensors to optimize traffic flows, mainly by control of traffic lights. 
