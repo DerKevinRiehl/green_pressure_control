@@ -22,9 +22,12 @@ Urban transportation networks increasingly suffer from congestion. Negative exte
 
 Green-Pressure is an extension of the Max-Pressure algorithm, that leverages vehicle category information from loop-detectors for a weighted queue-length approach, to reduce emissions at signalized intersections. 
 
-<img src="figures/Logic.PNG"  width="300"/>
-<img src="figures/IntersectionManagement.PNG"  width="200"/>
-
+<table>
+    <tr>
+        <td><img src="figures/Logic.PNG"  width="300"/></td>
+        <td><img src="figures/IntersectionManagement.PNG"  width="200"/></td>
+    </tr>
+</table>
 A multimodal, case study of a real-world artery network with seven intersections, and 96 traffic signals, demonstrates the feasibility of the proposed method using a calibrated microsimulation model. Interestingly, the differentiation of vehicle categories at traffic lights not only enables reductions in emissions up to 9% but also improves traffic efficiency significantly (5% reductionof total travel time) when compared with the (unweighed) Max-Pressure controller. This is achieved by systematic prioritization of transporters, trucks, and buses, at the cost of slightly larger delays for passenger cars and motorcycles. 
 
 ![image](figures/CaseStudy.PNG)
