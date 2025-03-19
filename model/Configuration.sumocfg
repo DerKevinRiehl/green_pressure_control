@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2023-12-12 08:27:32 by Eclipse SUMO sumo Version 1.19.0 -->
+
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <!-- SIMULATION SETTINGS -->
+    <time>
+        <begin value="0"/>
+        <end value="86400"/> <!-- 24h -->
+    </time>
+    
+    <!-- PROCESSING OPTIONS -->
+    <processing>
+        <step-length value="0.25"/> <!-- Quarter Seconds -->
+        <time-to-teleport value="-1"/> <!-- Disable Teleportation -->
+		<ignore-junction-blocker value="0.1" />
+		<device.emissions.period value="10" />
+		<summary-output.period value="300"/>
+    </processing>
+    
+    <!-- INPUT FILES -->
+    <input>
+        <net-file value="Network.net.xml"/>
+        <route-files value="CarRoutes.rou.xml,BusRoutes.rou.xml"/>
+    </input>
+	<additional-files value="BusStops.add.xml"/>
+	
+    <!-- OUTPUT FILES -->
+	<output>
+		<emission-output value="logs/Emissions.xml" />
+	    <tripinfo-output value="logs/TripInfos.xml" write-unfinished="true"/>
+		<summary-output value="logs/Log_summary.xml"/>
+	</output>
+    <report>
+        <verbose value="true"/>
+        <no-step-log value="true"/>
+    </report>
+	
+</configuration>

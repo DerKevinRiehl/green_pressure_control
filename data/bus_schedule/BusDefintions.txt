@@ -1,0 +1,72 @@
+https://www.sve-es.de/start.html
+https://www.vvs.de/fahrplan/
+https://livekarte.vvs.de/stops@48.77406,9.20027,z14.051219976532803
+https://moovitapp.com/index/de/%C3%96PNV-line-101-Stuttgart-3727-857835-382968-0
+https://www.opendata-oepnv.de/ht/de/organisation/verkehrsverbuende/vvs/startseite?tx_vrrkit_view%5Baction%5D=details&tx_vrrkit_view%5Bcontroller%5D=View&tx_vrrkit_view%5Bdataset_formats%5D%5B0%5D=ZIP&tx_vrrkit_view%5Bdataset_formats%5D%5B1%5D=CSV&tx_vrrkit_view%5Bdataset_name%5D=haltestellen-vvs&cHash=5d8d0b930eb81ab03c38708bc88144e0
+
+================================================================
+
+bs_0	Lerchenäcker	(101, 138)
+
+bs_1	Brandenburger Straße	(138)
+bs_10	Brandenburger Straße
+
+bs_2	Lammgarten (101)
+bs_7	Lammgarten
+
+bs_3	Indexstraße/Bahnhof (101, 106, 114, 115, 140, N16)
+bs_8	Indexstraße/Bahnhof
+
+bs_4	Stauffenbergstraße (101, 115)
+bs_9	Stauffenbergstraße
+
+bs_5	Kreuzstraße 	(102, 103, 132)
+bs_6	Kreuzstraße	
+
+bs_11	Keplerstraße	(115, 138, 114A)
+bs_12	Keplerstraße
+
+bs_13	Schorndorfer Straße		(102, 103, 132, 114A)
+bs_14	Schorndorfer Straße
+
+bs_16	Herderstraße	(101, 102, 103)
+
+bs_17	Steinhalde	(101, 106, 114, 132, 140, 114A, N16)
+bs_18	Steinhalde
+
+bs_19	Theodor-Heuss-Gymnasium	(132, 138, 114A)
+bs_20	Theodor-Heuss-Gymnasium
+
+bs_21	Zimmerbachstraße	(102, 103, 132, 138, 114A)
+bs_22	Zimmerbachstraße
+
+bs_23	Weiherstraße	(102, 103, 132, 138, 114A)
+bs_24	Weiherstraße
+
+bs_25	Oberhof-FAKE	(105, 114, 114A, N16)
+bs_26	Oberhof-FAKE
+
+================================================================
+
+line_101	bs_0, bs_17, bs_2, bs_3, bs_4
+Rline_101	bs_9, bs_8, bs_7, bs_16, bs_18, bs_0
+line_102	bs_23, bs_21, bs_14, bs_5 (no bs_14???)
+Rline_102	bs_6, bs_13, bs_22, bs_24 (no bs_13???) (gibts gar nicht zurück?)
+line_103	bs_23, bs_21, bs_14, bs_5 (no bs_14???)
+Rline_103	bs_6, bs_13, bs_22, bs_24 (no bs_13???) (gibts gar nicht zurück?)
+line_106	bs_25, bs_17, bs_2, bs_3, bs_4
+Rline_106	bs_9, bs_8, bs_7, bs_16, bs_18, bs_26
+line_114	bs_25, bs_17, bs_2, bs_3, bs_4
+Rline_114	bs_9, bs_8, bs_7, bs_16, bs_18, bs_26
+line_114A	bs_25, bs_20 jibbet jarnich? täglich 13:02
+Rline_114A	bs_20, bs_25
+line_115	bs_11, bs_2, bs_3, bs_4
+Rline_115	bs_9, bs_8, bs_7, bs_12
+line_132	bs_6, bs_18, bs_20
+Rline_132	bs_19, bs_17, bs_5
+line_138	bs_1, bs_0, bs_20
+Rline_138	bs_19, bs_0, bs_10
+line_140	bs_11, bs_2, bs_3, bs_4 jibbet jarnich? täglich 13:02
+Rline_140	bs_9, bs_8, bs_7, bs_12 jibbet jarnich? täglich 13:02
+line_N16	bs_9, bs_8, bs_7, bs_16, bs_18, bs_26 jibbet jarnich? täglich 13:02
+Rline_N16	bs_25, bs_17, bs_2, bs_3, bs_4 jibbet jarnich? täglich 13:02

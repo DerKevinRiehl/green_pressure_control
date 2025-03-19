@@ -1,0 +1,5 @@
+eclipse-sumo==1.19.0
+traci==1.19.0
+pandas
+numpy
+matplotlib
